@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+    <title>Elisa Prototipo</title>
+</head>
+<body>
+    <div class="encabezado">
+            <div class="text"><h3>Yessica Citaly <br> Vega Ortiz</h3></div>
+            <div class="text"><h1>Prueba Elisa</h1></div>
+            <div class="text"><h2>5 B.LC.V.</h2></div>
+    </div>
+    <section class="planilla"> 
+        <div class="microplate" id="microplate">
+        <!--Aqui se generan dinamicamente los pocillos-->
+        </div>
+    </section>
+    <div class="piePag">
+        <div><button onclick="llenarAmarillo()" class="Options">Llenar muestra</button></div>
+        <div><button onclick="difuminadoAleatorio()" class="Options">Agregar antigeno</button></div>
+        <div><button onclick="limpiar()" class="Options">Limpiar</button></div>
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
